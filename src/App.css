@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-self: center;
+  align-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+  text-shadow: 2px 3px 10px rgb(241, 40, 50);
+  background-image: linear-gradient(to right, rgb(54, 22, 235) , rgb(231, 7, 131));
+}
+.logo{
+  background-color: yellow;
+  padding: 3px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  
+  margin: 10px;
+  padding: 10px;
+  text-shadow: 1px 2px 2px rgb(236, 8, 198);
+}
+.box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.inputdata{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(247, 247, 248); */
+  border-radius: 10px;
+  width: 900px;
+  padding: 20px;
+  box-shadow: inset 5px 5px 3px rgb(175, 173, 173), 5px 5px 5px rgb(128, 126, 126);
+  margin: 10px;
+}
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* row-gap: 20px; */
+}
+.outlined-basic{
+  width: 800px;
+  border-radius: 5px;
+}
+#addbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.addbtn{
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  
+  width: 800px;
+  /* background-color: rgb(10, 241, 114); */
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+.tit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.film{
+  border-radius: 5px;
+  background: rgb(230, 5, 5);
+  font-size: 18px;
+  box-shadow: inset 2px 2px 5px rgb(102, 4, 4), inset -2px -2px 5px rgb(102, 4, 4);
+  font-weight: bold;
+  padding: 5px;
+}
+.container{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+#main {
+  margin: 10px;
+  width: 340px;
+  font-size: 17px;
+  font-weight: 500;
+  height: min-content;
+  border-radius: 10px;
+ 
+}
+.image{
+  padding: 10px;
+}
+.img { 
+  height: 500px;
+  width: 320px;
+  object-fit:cover;
+  border-radius: 5px;
+}
+#content{
+  width: 330px;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.sum{
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+i{
+  color: rgb(241, 226, 10);
+  text-shadow: 2px 2px rgb(240, 134, 14);
+}
+#togbtn{
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+}
+.clr{
+  margin: 10px 0px 10px 10px;
+  width:150px;
+  height:20px;
+}
+.fullgame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.startbtn{
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 486px;
+  height: 489px;
+  margin: 10px;
+  border: 3px solid black;
+  box-shadow: 5px 5px 15px rgb(2, 58, 68);
+  background-color: black;
+}
+.game-box{
+  height: 160px;
+  width: 160px;
+  border:3px solid black;
+  font-size: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(135, 217, 245);
+  box-shadow: inset 5px 5px 10px rgb(94, 91, 91);
+  text-shadow: 3px 5px 5px rgb(25, 4, 100);
+}
+.not-found{
+  background: none;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  
+}
+#img-404{
+  width: 100%;
+  max-height: 700px;
+}
+h1{
+  text-align: center;
+  margin: 20px;
+  width: 1000px;
+}
+.movie-details{
+  width: 1200px;
+  padding: 24px;
+}
+#color-box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
